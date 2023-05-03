@@ -122,7 +122,7 @@ def stats(device):
             draw.text((0, 24), disk_usage('/home/pi/m2ssd/'), font=font2, fill="white")
             try:
                 # Network card data sent/received
-                # If you want the wifi interface the change 'eth0' to 'wlan0' in the following line
+                # If you want the wifi interface then change 'eth0' to 'wlan0' in the following line
                 draw.text((0, 36), network('eth0'), font=font2, fill="white")
 
             except KeyError:

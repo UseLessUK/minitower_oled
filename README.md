@@ -26,8 +26,8 @@ The colour of the LEDs within the case will change based on the temperature of t
 Information on how to setup a service, to update the information displayed on the OLED periodically, see [this](https://wiki.52pi.com/index.php?title=ZP-0130-4wire#How_to_Install_All_Drivers_Automatically) section of the Wiki.
 
 ## Notes
-1. The script is setup the report the IP address of the `eth0` LAN port if you wish to use the Wireless interface then change line 126.
+1. You'll need to alter line 122 and use the mount point you created for your M.2 SSD.
 
-2. You'll need to alter line 122 and use the mount point you created for your M.2 SSD.
+2. The script is setup to report the IP address of the `eth0` LAN port if you wish to use the Wireless interface then change line 126.
 
 3. You'll also need to set the required file permissions so the files in `/usr/local/bin` can be executed.
