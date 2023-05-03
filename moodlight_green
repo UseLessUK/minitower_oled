@@ -1,0 +1,5 @@
+#!/bin/bash
+# Start Moodlight Green
+
+echo "Setting mood to Green"
+sudo python3 /usr/local/luma.examples/examples/moodlight_green.py

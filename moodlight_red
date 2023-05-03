@@ -1,0 +1,5 @@
+#!/bin/bash
+# Start Moodlight Red
+
+echo "Setting mood to Red"
+sudo python3 /usr/local/luma.examples/examples/moodlight_red.py

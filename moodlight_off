@@ -1,0 +1,5 @@
+#!/bin/bash
+# Start Moodlight Blue
+
+echo "Turning off LEDs"
+sudo python3 /usr/local/luma.examples/examples/moodlight_off.py

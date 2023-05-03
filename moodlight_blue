@@ -1,0 +1,5 @@
+#!/bin/bash
+# Start Moodlight Blue
+
+echo "Setting mood to Blue"
+sudo python3 /usr/local/luma.examples/examples/moodlight_blue.py
