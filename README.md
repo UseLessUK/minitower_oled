@@ -34,7 +34,7 @@ CPU temp:
 Information on how to setup a service, to update the information displayed on the OLED periodically, see [this](https://wiki.52pi.com/index.php?title=ZP-0130-4wire#How_to_Install_All_Drivers_Automatically) section of the Wiki.
 
 ## Notes
-1. You'll need to alter line 122, in 'sysinfo.py`, and use the mount point you created for your M.2 SSD.
+1. You'll need to alter line 122, in `sysinfo.py`, and use the mount point you created for your M.2 SSD.
 
 2. The script, `sysinfo.py`, is setup to report the IP address of the `eth0` LAN port if you wish to use the Wireless interface then change line 126.
 
