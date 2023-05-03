@@ -22,6 +22,14 @@ Up: <system up time>
 ```
 The colour of the LEDs within the case will change based on the temperature of the CPU.
 
+CPU temp:
+```
+             < 45.0: LEDs are Blue
+ >= 45.0 and < 49.9: LEDs are Green
+ >= 50.0 and < 59.9: LEDs are Orange
+            >= 60.0: LEDs are Red
+```
+
 ## Setting up a Service
 Information on how to setup a service, to update the information displayed on the OLED periodically, see [this](https://wiki.52pi.com/index.php?title=ZP-0130-4wire#How_to_Install_All_Drivers_Automatically) section of the Wiki.
 
