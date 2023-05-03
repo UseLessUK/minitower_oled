@@ -38,4 +38,4 @@ Information on how to setup a service, to update the information displayed on th
 
 2. The script, `sysinfo.py`, is setup to report the IP address of the `eth0` LAN port if you wish to use the Wireless interface then change line 126.
 
-3. You'll also need to set the required file permissions so the files in `/usr/local/bin` can be executed.
+3. You'll also need to set the required file permissions so the files you place in `/usr/local/bin` can be executed.
